@@ -4,3 +4,4 @@ with io.open(image_file, 'rb') as image_file:
 image = types.Image(content=content)
 response = client.document_text_detection(image=image)
 document = response.full_text_annotati
+djdd
